@@ -10,7 +10,7 @@ function updateCounter() {
 
 const btn = $("<button>Click here to get started</button>").on(
   "click",
-  _.debounce(updateCounter, 500)
+  _.debounce(updateCounter, 500, { leading: true, trailing: false })
 );
 
 $("body").append("<p>Holberton Dashboard</p>");
