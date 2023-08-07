@@ -1,0 +1,14 @@
+.App-header {
+  display: flex;
+  border-bottom: 3px solid rgb(226, 46, 76);
+}
+
+.App-header img {
+  max-width: 100%;
+  width: 15%;
+}
+
+.App-header h1 {
+  color: rgb(226, 46, 76);
+  align-self: center;
+}
