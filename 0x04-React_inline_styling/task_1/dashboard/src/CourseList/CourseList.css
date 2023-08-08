@@ -1,0 +1,12 @@
+th {
+  border-bottom: 1px solid #ddd;
+}
+
+th,
+td {
+  width: 80%;
+}
+
+tr:nth-child(2) {
+  text-align: left;
+}
