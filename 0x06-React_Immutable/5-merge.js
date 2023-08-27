@@ -5,5 +5,5 @@ export const concatElements = (page1, page2) => {
 };
 
 export const mergeElements = (page1, page2) => {
-  return List(Map(page1).merge(Map(page2)));
+  return Map(page1).merge(Map(page2));
 };
